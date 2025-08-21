@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "judul": "CPR (Resusitasi Jantung Paru)",
+    "deskripsi": "Langkah-langkah melakukan CPR pada korban henti jantung.",
+    "gambar": "placeholder.png",
+    "steps": [
+      {
+        "judul": "Cek Respons Korban",
+        "perintah": "Pastikan korban sadar atau tidak dengan menepuk dan memanggil.",
+        "gambar": "cpr_step1.png",
+        "urutan": 1
+      },
+      {
+        "judul": "Panggil Bantuan",
+        "perintah": "Minta orang sekitar untuk memanggil bantuan medis.",
+        "gambar": "placeholder.png",
+        "urutan": 2
+      },
+      {
+        "judul": "Mulai Kompresi Dada",
+        "perintah": "Letakkan kedua tangan di tengah dada dan lakukan kompresi.",
+        "gambar": "cpr_step3.png",
+        "urutan": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "judul": "Penanganan Luka Bakar",
+    "deskripsi": "Cara menangani luka bakar ringan hingga berat.",
+    "gambar": "placeholder.png",
+    "steps": [
+      {
+        "judul": "Cuci Luka Bakar",
+        "perintah": "Bersihkan area luka dengan air mengalir selama 10-20 menit.",
+        "gambar": "burn_step1.png",
+        "urutan": 1
+      },
+      {
+        "judul": "Tutup Luka Bakar",
+        "perintah": "Gunakan kain bersih atau perban untuk menutup luka.",
+        "gambar": "burn_step2.png",
+        "urutan": 2
+      },
+      {
+        "judul": "Hindari Mengoleskan Salep",
+        "perintah": "Jangan oleskan salep atau bahan lain pada luka bakar.",
+        "gambar": "burn_step3.png",
+        "urutan": 3
+      }
+    ]
+  }
+]
+

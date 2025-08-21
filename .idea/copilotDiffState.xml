@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/app/src/main/assets/json/simulasi/step_simulasi.json">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/app/src/main/assets/json/simulasi/step_simulasi.json" />
+              <option name="updatedContent" value="[&#10;  {&#10;    &quot;stepId&quot;: 1,&#10;    &quot;simulasiId&quot;: 1,&#10;    &quot;judul&quot;: &quot;Cek Respons Korban&quot;,&#10;    &quot;perintah&quot;: &quot;Pastikan korban sadar atau tidak dengan menepuk dan memanggil.&quot;,&#10;    &quot;gambar&quot;: &quot;cpr_step1.png&quot;,&#10;    &quot;urutan&quot;: 1&#10;  },&#10;  {&#10;    &quot;stepId&quot;: 2,&#10;    &quot;simulasiId&quot;: 1,&#10;    &quot;judul&quot;: &quot;Panggil Bantuan&quot;,&#10;    &quot;perintah&quot;: &quot;Minta orang sekitar untuk memanggil bantuan medis.&quot;,&#10;    &quot;gambar&quot;: &quot;cpr_step2.png&quot;,&#10;    &quot;urutan&quot;: 2&#10;  },&#10;  {&#10;    &quot;stepId&quot;: 3,&#10;    &quot;simulasiId&quot;: 1,&#10;    &quot;judul&quot;: &quot;Mulai Kompresi Dada&quot;,&#10;    &quot;perintah&quot;: &quot;Letakkan kedua tangan di tengah dada dan lakukan kompresi.&quot;,&#10;    &quot;gambar&quot;: &quot;cpr_step3.png&quot;,&#10;    &quot;urutan&quot;: 3&#10;  },&#10;  {&#10;    &quot;stepId&quot;: 4,&#10;    &quot;simulasiId&quot;: 2,&#10;    &quot;judul&quot;: &quot;Identifikasi Sumbatan Napas&quot;,&#10;    &quot;perintah&quot;: &quot;Periksa apakah korban mengalami sumbatan napas.&quot;,&#10;    &quot;gambar&quot;: &quot;sumbatan_napas_step1.png&quot;,&#10;    &quot;urutan&quot;: 1&#10;  },&#10;  {&#10;    &quot;stepId&quot;: 5,&#10;    &quot;simulasiId&quot;: 2,&#10;    &quot;judul&quot;: &quot;Lakukan Heimlich Maneuver&quot;,&#10;    &quot;perintah&quot;: &quot;Jika korban dewasa, lakukan Heimlich Maneuver.&quot;,&#10;    &quot;gambar&quot;: &quot;sumbatan_napas_step2.png&quot;,&#10;    &quot;urutan&quot;: 2&#10;  }&#10;]&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/aplikasi/bhd/model/MateriAdapter.kt">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/app/src/main/java/com/aplikasi/bhd/model/MateriAdapter.kt" />
+              <option name="updatedContent" value="package com.aplikasi.bhd.model&#10;&#10;import android.view.LayoutInflater&#10;import android.view.View&#10;import android.view.ViewGroup&#10;import android.widget.ImageView&#10;import android.widget.TextView&#10;import androidx.recyclerview.widget.RecyclerView&#10;import com.aplikasi.bhd.R&#10;&#10;class MateriAdapter(private val items: List&lt;Materi&gt;) : RecyclerView.Adapter&lt;MateriAdapter.MateriViewHolder&gt;() {&#10;    class MateriViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {&#10;        val judul: TextView = itemView.findViewById(R.id.tv_judul_materi)&#10;        val deskripsi: TextView = itemView.findViewById(R.id.tv_deskripsi_materi)&#10;        val gambar: ImageView = itemView.findViewById(R.id.iv_gambar_materi)&#10;    }&#10;&#10;    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MateriViewHolder {&#10;        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_materi, parent, false)&#10;        return MateriViewHolder(view)&#10;    }&#10;&#10;    override fun onBindViewHolder(holder: MateriViewHolder, position: Int) {&#10;        val materi = items[position]&#10;        holder.judul.text = materi.judul&#10;        holder.deskripsi.text = materi.deskripsi&#10;        // Untuk gambar, bisa pakai Glide/Picasso jika ingin load dari assets&#10;        // holder.gambar.setImageResource(R.drawable.default_image)&#10;    }&#10;&#10;    override fun getItemCount(): Int = items.size&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

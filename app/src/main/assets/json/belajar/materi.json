@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "judul": "Pertolongan Pertama",
+    "deskripsi": "Langkah-langkah dasar pertolongan pertama pada kecelakaan.",
+    "gambar": "placeholder.png"
+  },
+  {
+    "id": 2,
+    "judul": "RJP (Resusitasi Jantung Paru)",
+    "deskripsi": "Teknik dasar CPR untuk menyelamatkan nyawa.",
+    "gambar": "placeholder.png"
+  },
+  {
+    "id": 3,
+    "judul": "Penanganan Luka Bakar",
+    "deskripsi": "Cara menangani luka bakar ringan hingga berat.",
+    "gambar": "placeholder.png"
+  }
+]
+

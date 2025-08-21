@@ -1,0 +1,37 @@
+[
+  {
+    "materiId": "1",
+    "details": [
+      {
+        "step": 1,
+        "title": "Pendahuluan",
+        "content": "Penjelasan singkat tentang materi."
+      },
+      {
+        "step": 2,
+        "title": "Langkah 1",
+        "content": "Deskripsi langkah pertama."
+      }
+    ]
+  },
+  {
+    "materiId": "2",
+    "details": [
+      {
+        "step": 1,
+        "title": "Pendahuluan",
+        "content": "Penjelasan singkat tentang materi kedua."
+      }
+    ]
+  },
+  {
+    "materiId": "3",
+    "details": [
+      {
+        "step": 1,
+        "title": "Pendahuluan",
+        "content": "Penjelasan singkat tentang materi kedua."
+      }
+    ]
+  },
+]
