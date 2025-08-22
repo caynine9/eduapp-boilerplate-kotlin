@@ -15,7 +15,7 @@ This boilerplate is designed to make it easier for developers to display **JSON-
 
 - **Simulation Module**  
   - Provides *interactive simulations* for learning materials.  
-  - Uses **ViewPager** for step-by-step navigation.  
+  - Uses `ViewPager` for step-by-step navigation.  
 
 - **Boilerplate Structure**  
   - Easily extensible for other types of content or features.  
